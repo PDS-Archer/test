@@ -6,7 +6,12 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            var testClass = new TestClass
+            {
+                Message = "Hello world!"
+            };
+
+            Console.WriteLine(testClass.Message);
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
         }
