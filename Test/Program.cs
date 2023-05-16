@@ -8,7 +8,7 @@ namespace Test
         {
             var testClass = new TestClass
             {
-                Message = "Hello world!"
+                Message = "Hello World!"
             };
 
             Console.WriteLine(testClass.Message);
